@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Világosabb kék háttér a kellemesebb megjelenésért */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Szöveg színe */
+    line-height: 1.6; /* Olvashatóság javítása */
+}
+
+h1 {
+    color: #003366; /* Sötétebb kék szín a főcímhez */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #cce7ff; /* Világos kék keret */
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px; /* Lekerekített szélek csökkentve */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Enyhébb árnyék */
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out; /* Sima animáció */
+}
+
+li:hover {
+    background-color: #e6f7ff; /* Világosabb háttér, ha az elem fölé viszik az egeret */
+    transform: scale(1.03); /* Enyhe nagyítás hover esetén */
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #007BFF; /* Élénk kék linkek */
+    transition: color 0.2s ease-in-out; /* Animáció link színváltáskor */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Sötétebb kék hover esetén */
+}
+
+p {
+    margin: 10px 0;
+    color: #555; /* Kevésbé kontrasztos szürke szín a szöveghez */
+}
+
+button {
+    background-color: #007BFF; /* Kék gomb */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Sötétebb kék hover esetén */
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    margin: 10px;
+}
+
+form {
+    text-align: center;
+    margin: 20px 0;
+}

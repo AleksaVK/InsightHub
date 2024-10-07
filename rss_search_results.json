@@ -1,0 +1,71 @@
+{
+    "Hungary": [
+        "https://www.patronet.hu/rssFeeds",
+        "https://www.hirstart.hu/rss",
+        "https://infostart.hu/info/rss",
+        "https://hvg.hu/egyeb/rss",
+        "https://index.hu/24ora/?cimke=rss",
+        "https://www.hirstart.hu/rss-specifikacio.html",
+        "https://kiszervezettmarketing.hu/weboldal-keszites/rss-jelentese/",
+        "https://www.palyazat.gov.hu/rss",
+        "https://www.portfolio.hu/rss",
+        "https://www.origo.hu/techbazis/2007/01/20050602iratkozzon"
+    ],
+    "Serbia": [
+        "https://balkaninsight.com/rss-feeds/",
+        "https://mult-kor.hu/mult-kor/rss.php",
+        "https://hu.wikipedia.org/wiki/RSS",
+        "https://www.echr.coe.int/echr-rss-feeds",
+        "https://elginil.gov/rss.aspx",
+        "https://worldwide.espacenet.com/help?locale=en_EP&method=handleHelpTopic&topic=rss"
+    ],
+    "Slovenia": [
+        "https://rss.feedspot.com/slovenia_news_rss_feeds/",
+        "https://www.stat.si/statweb/en/rss",
+        "https://hu.wikipedia.org/wiki/RSS",
+        "https://elginil.gov/rss.aspx"
+    ],
+    "Slovakia": [
+        "https://rss.feedspot.com/slovakia_news_rss_feeds/",
+        "https://ujszo.com/hirdetes",
+        "https://www.iom.sk/en/press-room/rss-feed.html",
+        "https://www.bumm.sk/",
+        "https://hu.wikipedia.org/wiki/RSS",
+        "https://ujszo.com/",
+        "https://www.portfolio.hu/",
+        "https://www.korkep.sk/",
+        "https://ec.europa.eu/eurostat/web/rss",
+        "https://parameter.sk/"
+    ],
+    "Romania": [
+        "https://rss.feedspot.com/romania_news_rss_feeds/",
+        "https://hu.wikipedia.org/wiki/RSS",
+        "https://balkaninsight.com/rss-feeds/",
+        "https://www.patronet.hu/rssFeeds",
+        "https://ted.europa.eu/en/simap/rss-feed",
+        "https://maszol.ro/",
+        "https://www.leonardo.com/en/rss",
+        "https://wordpress.org/support/plugin/romania-libera-rss-feed/reviews/"
+    ],
+    "Czech Republic": [
+        "https://hu.wikipedia.org/wiki/RSS",
+        "https://elginil.gov/rss.aspx"
+    ],
+    "Poland": [
+        "https://www.gov.pl/web/magyarorszag/tnyek-s-adatok-a-lengyel-gazdasgrol2",
+        "https://hu.wikipedia.org/wiki/RSS",
+        "https://www.echr.coe.int/echr-rss-feeds",
+        "https://www.facebook.com/groups/1495852497346790/",
+        "https://www.wasecacounty.gov/rss.aspx"
+    ],
+    "Austria": [
+        "https://rss.feedspot.com/austria_news_rss_feeds/",
+        "https://hirorszag4.webnode.hu/idegennyelvu-hirforrasok/ausztria/",
+        "https://www.cedefop.europa.eu/en/news-and-events/rss-feeds",
+        "https://hu.wikipedia.org/wiki/RSS",
+        "https://www.echr.coe.int/echr-rss-feeds",
+        "https://ted.europa.eu/en/simap/rss-feed",
+        "https://elginil.gov/rss.aspx",
+        "https://www.atinternet.com/en/glossary/rss-feed/"
+    ]
+}

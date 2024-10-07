@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightHub - Hírek</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f7ff; /* Világos kék háttér */
+            margin: 20px;
+            padding: 0;
+            color: #333; /* Szöveg színe */
+        }
+
+        h1 {
+            color: #0056b3; /* Kék szín a főcímhez */
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #ffffff;
+            border: 1px solid #cce7ff; /* Világos kék keret */
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 10px; /* Lekerekített szélek */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Enyhe árnyék */
+            transition: transform 0.2s, background-color 0.2s; /* Hover animáció */
+        }
+
+        li:hover {
+            background-color: #f0f8ff; /* Világosabb háttér, ha az elem fölé viszik az egeret */
+            transform: scale(1.02); /* Enyhe nagyítás hover esetén */
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #007BFF; /* Élénk kék linkek */
+            transition: color 0.2s; /* Animáció link színváltáskor */
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3; /* Sötétebb kék hover esetén */
+        }
+
+        p {
+            margin: 5px 0 0;
+            color: #666; /* Szürke szín a szöveghez */
+        }
+
+        button {
+            background-color: #007BFF; /* Kék gomb */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3; /* Sötétebb kék hover esetén */
+        }
+
+        select {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            color: #333;
+        }
+
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .news-item {
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-item h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .news-item p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Üdvözöllek az InsightHub-ban!</h1>
+        <p>Ez az oldal az RSS hírek elemzésére szolgál.</p>
+    </header>
+
+    <main>
+        <h2>Hírek</h2>
+        {% if news %}
+            {% for item in news %}
+                <div class="news-item">
+                    <h3>{{ item.title }}</h3>
+                    <p><strong>Ország:</strong> {{ item.country }}</p>
+                    <p>{{ item.summary }}</p>
+                    <p><a href="{{ item.link }}" target="_blank">Tovább a cikkhez</a></p>
+                    <p><small><strong>Megjelenés:</strong> {{ item.published }}</small></p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>Nincsenek elérhető hírek jelenleg.</p>
+        {% endif %}
+    </main>
+</body>
+</html>

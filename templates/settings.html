@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beállítások - InsightHub</title>
+    <link rel="stylesheet" href="/static/style.css"> <!-- Ha van CSS fájl -->
+</head>
+<body>
+    <h1>Beállítások</h1>
+    <form method="POST" action="/settings">
+        <label for="country">Ország választása:</label>
+        <select name="country" id="country">
+            <option value="Hungary">Magyarország</option>
+            <option value="Serbia">Szerbia</option>
+            <option value="Slovakia">Szlovákia</option>
+            <option value="Slovenia">Szlovénia</option>
+            <option value="Romania">Románia</option>
+            <option value="Austria">Ausztria</option>
+            <option value="Czech Republic">Csehország</option>
+            <option value="Poland">Lengyelország</option>
+        </select>
+        <button type="submit">Mentés</button>
+    </form>
+</body>
+</html>
