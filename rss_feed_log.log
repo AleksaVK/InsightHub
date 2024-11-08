@@ -1955,3 +1955,51 @@ IndexError: list index out of range
 2024-10-07 15:22:39,528 - ERROR - Hiba történt az adatbázis mentése közben: table news has no column named sentiment
 2024-10-07 15:22:39,563 - ERROR - Hiba történt az adatbázis mentése közben: table news has no column named sentiment
 2024-10-07 15:22:39,600 - ERROR - Hiba történt az adatbázis mentése közben: table news has no column named sentiment
+2024-11-08 23:14:07,902 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-08 23:14:07,903 - INFO - Added job "fetch_and_process_feeds" to job store "default"
+2024-11-08 23:14:07,903 - INFO - Scheduler started
+2024-11-08 23:14:07,937 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5988
+2024-11-08 23:14:07,938 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-08 23:14:07,938 - INFO -  * Restarting with stat
+2024-11-08 23:14:08,877 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-08 23:14:08,877 - INFO - Added job "fetch_and_process_feeds" to job store "default"
+2024-11-08 23:14:08,877 - INFO - Scheduler started
+2024-11-08 23:14:08,893 - WARNING -  * Debugger is active!
+2024-11-08 23:14:08,908 - INFO -  * Debugger PIN: 143-414-126
+2024-11-08 23:36:45,589 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-08 23:36:45,589 - INFO - Added job "fetch_and_process_feeds" to job store "default"
+2024-11-08 23:36:45,589 - INFO - Scheduler started
+2024-11-08 23:36:45,618 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5024
+2024-11-08 23:36:45,618 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-08 23:36:45,619 - INFO -  * Restarting with stat
+2024-11-08 23:36:46,606 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-08 23:36:46,607 - INFO - Added job "fetch_and_process_feeds" to job store "default"
+2024-11-08 23:36:46,607 - INFO - Scheduler started
+2024-11-08 23:36:46,624 - WARNING -  * Debugger is active!
+2024-11-08 23:36:46,636 - INFO -  * Debugger PIN: 143-414-126
+2024-11-08 23:37:09,917 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-08 23:37:09,917 - INFO - Added job "fetch_and_process_feeds" to job store "default"
+2024-11-08 23:37:09,917 - INFO - Scheduler started
+2024-11-08 23:37:09,941 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5051
+2024-11-08 23:37:09,941 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-08 23:37:09,941 - INFO -  * Restarting with stat
+2024-11-08 23:37:10,860 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-08 23:37:10,860 - INFO - Added job "fetch_and_process_feeds" to job store "default"
+2024-11-08 23:37:10,860 - INFO - Scheduler started
+2024-11-08 23:37:10,876 - WARNING -  * Debugger is active!
+2024-11-08 23:37:10,886 - INFO -  * Debugger PIN: 143-414-126
+2024-11-08 23:37:52,865 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-08 23:37:52,866 - INFO - Added job "fetch_and_process_feeds" to job store "default"
+2024-11-08 23:37:52,866 - INFO - Scheduler started
+2024-11-08 23:37:52,890 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5372
+2024-11-08 23:37:52,890 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-08 23:37:52,890 - INFO -  * Restarting with stat
+2024-11-08 23:37:53,841 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-11-08 23:37:53,841 - INFO - Added job "fetch_and_process_feeds" to job store "default"
+2024-11-08 23:37:53,841 - INFO - Scheduler started
+2024-11-08 23:37:53,858 - WARNING -  * Debugger is active!
+2024-11-08 23:37:53,867 - INFO -  * Debugger PIN: 143-414-126
