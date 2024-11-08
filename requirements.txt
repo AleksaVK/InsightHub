@@ -71,3 +71,8 @@ feedparser
 googletrans==4.0.0-rc1
 requests
 gunicorn
+
+matplotlib~=3.9.2
+nltk~=3.9.1
+deep-translator~=1.11.4
+scikit-learn~=1.5.2
